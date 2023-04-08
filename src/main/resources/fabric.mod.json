@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "motools",
+  "version": "${version}",
+  "name": "MoTools",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Caleb/MoTools"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/motools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.minibabybell.motools.client.MoToolsClient"
+    ],
+    "main": [
+      "me.minibabybell.motools.MoToolsMain"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
